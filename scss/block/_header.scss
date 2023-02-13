@@ -1,0 +1,35 @@
+.header{
+    padding: 40px; 
+    &__wrapper{
+        display: flex;
+        justify-content: space-around;  
+        align-items: center;    
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+    &__link{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        color: #939CAA;
+    }    
+}
+.btn{
+    padding: 15px 40px;
+    background-color: #FCB72B;
+    border: none;
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.btn:hover{
+    border: 2px solid #FCB72B;
+    background-color: red;
+    color: #FCB72B;
+}

@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@600&family=Montserrat:ital,wght@0,700;1,700&family=Poppins:ital,wght@1,600&family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@600&family=Montserrat:ital,wght@0,700;1,700&family=Poppins:ital,wght@1,600&family=Space+Mono:wght@700&display=swap");
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lexend-deca-v17-latin-regular.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/lexend-deca-v17-latin-700.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* space-mono-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/space-mono-v12-latin-regular.woff2") format("woff2"), url("../fonts/space-mono-v12-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* space-mono-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/space-mono-v12-latin-700.woff2") format("woff2"), url("../fonts/space-mono-v12-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Livvic;
+  font-weight: 600;
+}
+
+body {
+  font-family: "Space Mono";
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0;
+  padding: 0px;
+}
+
+.hero {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero_logo > h1 {
+  padding: 30px 0;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #495567;
+}
+
+.hero_logo > p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #495567;
+}
+
+.hero_item > h1 {
+  padding: 30px 0;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #495567;
+}
+
+.hero_item > p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #495567;
+}
+
+.hero_link > h1 {
+  padding: 30px 0;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #495567;
+}
+
+.hero_link > p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #495567;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+  .hero {
+    position: relative;
+    display: flex;
+    gap: 70px;
+    flex-direction: column;
+  }
+}
+.header {
+  padding: 40px;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header__link {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #939CAA;
+}
+
+.btn {
+  padding: 15px 40px;
+  background-color: #FCB72B;
+  border: none;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.btn:hover {
+  border: 2px solid #FCB72B;
+  background-color: red;
+  color: #FCB72B;
+}
+
+.navbar {
+  padding: 45px;
+  background-image: url(/images/Bitmap.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 35px;
+}
+
+.nav__logo {
+  padding: 0 165px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-size: 38px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+}
+
+.nav_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  width: 307px;
+  height: 138px;
+}
+
+.nav__menu {
+  padding: 30px 250px;
+}
+
+.nav_item {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.nav__btn {
+  padding: 15px 40px;
+  background-color: #FCB72B;
+  border: none;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.nav__btn:hover {
+  border: 2px solid #FCB72B;
+  background-color: red;
+  color: #FCB72B;
+}
+
+.nav_button {
+  padding: 30px 0;
+}
+
+@media screen and (max-width: 970px) {
+  .nav__logo > h1 {
+    text-align: center;
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .nav_item > img {
+    display: none;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .nav_item > p {
+    text-align: center;
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 780px) {
+  .nav_item > p {
+    margin: 0;
+    text-align: center;
+    font-size: 7px;
+    line-height: 7px;
+  }
+}
+.goog__box {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  margin-top: 200px;
+  row-gap: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.good__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 165px;
+  padding: 70px 0;
+}
+
+.good__list > h1 {
+  max-width: 445px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.good__list > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  max-width: 445px;
+  padding: 22px 0 40px;
+}
+
+.good__item:nth-child(2) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.good__list > button {
+  padding: 15px 40px;
+  background-color: #FCB72B;
+  border: none;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.good__list > button:hover {
+  border: 2px solid #FCB72B;
+  background-color: red;
+  color: #FCB72B;
+}
+
+@media screen and (max-width: 768px) {
+  .good__list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .good__item {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .good__item:nth-child(2) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+.action__menu {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  background-image: url(/images/Mask.png);
+}
+
+.action__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 102px 0;
+}
+
+.action__box > h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+  max-width: 415px;
+}
+
+.action__list {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .action__box {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+}
+.footer {
+  background-color: #333A44;
+}
+
+.footer__menu {
+  padding: 0 30px;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+}
+
+.footer__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 58px;
+}
+
+.footer__link {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer__list > li > a {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}/*# sourceMappingURL=main.css.map */

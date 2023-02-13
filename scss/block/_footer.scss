@@ -1,0 +1,35 @@
+.footer{
+    
+    background-color: #333A44;
+}
+.footer__menu{
+    padding: 0 30px;
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+}
+.footer__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+.footer__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 58px;
+}
+.footer__link{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.footer__list>li>a{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}

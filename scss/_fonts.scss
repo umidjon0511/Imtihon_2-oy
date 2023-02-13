@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@600&family=Montserrat:ital,wght@0,700;1,700&family=Poppins:ital,wght@1,600&family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@600&family=Montserrat:ital,wght@0,700;1,700&family=Poppins:ital,wght@1,600&family=Space+Mono:wght@700&display=swap');
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/lexend-deca-v17-latin-regular.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lexend-deca-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/lexend-deca-v17-latin-700.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* space-mono-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/space-mono-v12-latin-regular.woff2") format("woff2"), url("../fonts/space-mono-v12-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* space-mono-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/space-mono-v12-latin-700.woff2") format("woff2"), url("../fonts/space-mono-v12-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
